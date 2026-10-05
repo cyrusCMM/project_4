@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- =====================================================
+       BASIC PAGE SETTINGS
+  ====================================================== -->
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Cyrus Store - Responsive online store landing page"
+  >
+
+  <title>Cyrus Store | Shop Online</title>
+
+
+  <!-- =====================================================
+       BOOTSTRAP CSS
+  ====================================================== -->
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+
+  <!-- =====================================================
+       BOOTSTRAP ICONS
+  ====================================================== -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+  >
+
+
+  <!-- =====================================================
+       CUSTOM CSS
+  ====================================================== -->
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       HEADER / NAVBAR
+  ====================================================== -->
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+      <div class="container">
+
+
+        <!-- STORE LOGO -->
+
+        <a
+          class="navbar-brand fw-bold"
+          href="#home"
+        >
+          <i class="bi bi-cart3 me-2"></i>
+          Cyrus Store
+        </a>
+
+
+        <!-- MOBILE NAVIGATION BUTTON -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- NAVIGATION LINKS -->
+
+        <div
+          class="collapse navbar-collapse"
+          id="mainNavbar"
+        >
+
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#home"
+              >
+                Home
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#products"
+              >
+                Products
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#about"
+              >
+                About
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact"
+              >
+                Contact
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       HERO SECTION
+  ====================================================== -->
+
+  <section
+    id="home"
+    class="hero-section"
+  >
+
+    <img
+      src="heading image.png"
+      alt="Cyrus Store shopping banner"
+      class="hero-image"
+    >
+
+  </section>
+
+
+
+  <!-- =====================================================
+       MAIN CONTENT
+  ====================================================== -->
+
+  <main>
+
+
+    <!-- =====================================================
+         PRODUCTS SECTION
+    ====================================================== -->
+
+    <section
+      id="products"
+      class="products-section"
+    >
+
+      <div class="container">
+
+
+        <!-- SECTION HEADING -->
+
+        <div class="section-heading text-center">
+
+          <h2>
+            Featured Products
+          </h2>
+
+          <p>
+            Explore some of our most popular products.
+          </p>
+
+        </div>
+
+
+        <!-- RESPONSIVE PRODUCT GRID -->
+
+        <div class="row g-4">
+
+
+          <!-- =================================================
+               PRODUCT 1
+          ================================================== -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+
+            <article class="card product-card h-100">
+
+              <img
+                src="shoes.png"
+                class="card-img-top product-image"
+                alt="White and black urban sneakers"
+              >
+
+
+              <div class="card-body d-flex flex-column">
+
+                <h3 class="card-title">
+                  Urban Sneakers
+                </h3>
+
+
+                <p class="card-text">
+                  Comfortable and stylish sneakers
+                  designed for everyday wear.
+                </p>
+
+
+                <p class="product-price">
+                  KSh 4,500
+                </p>
+
+
+                <a
+                  href="#contact"
+                  class="btn btn-dark mt-auto"
+                >
+                  Shop Now
+                </a>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+
+          <!-- =================================================
+               PRODUCT 2
+          ================================================== -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+
+            <article class="card product-card h-100">
+
+              <img
+                src="watch.png"
+                class="card-img-top product-image"
+                alt="Classic black and gold wrist watch"
+              >
+
+
+              <div class="card-body d-flex flex-column">
+
+                <h3 class="card-title">
+                  Classic Watch
+                </h3>
+
+
+                <p class="card-text">
+                  A clean and elegant watch suitable
+                  for casual and formal occasions.
+                </p>
+
+
+                <p class="product-price">
+                  KSh 6,500
+                </p>
+
+
+                <a
+                  href="#contact"
+                  class="btn btn-dark mt-auto"
+                >
+                  Shop Now
+                </a>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+
+          <!-- =================================================
+               PRODUCT 3
+          ================================================== -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+
+            <article class="card product-card h-100">
+
+              <img
+                src="bag.png"
+                class="card-img-top product-image"
+                alt="Brown premium leather bag"
+              >
+
+
+              <div class="card-body d-flex flex-column">
+
+                <h3 class="card-title">
+                  Premium Bag
+                </h3>
+
+
+                <p class="card-text">
+                  A stylish and spacious bag designed
+                  for work, travel and everyday use.
+                </p>
+
+
+                <p class="product-price">
+                  KSh 5,800
+                </p>
+
+
+                <a
+                  href="#contact"
+                  class="btn btn-dark mt-auto"
+                >
+                  Shop Now
+                </a>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+
+          <!-- =================================================
+               PRODUCT 4
+          ================================================== -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+
+            <article class="card product-card h-100">
+
+              <img
+                src="headphone.png"
+                class="card-img-top product-image"
+                alt="Black wireless headphones"
+              >
+
+
+              <div class="card-body d-flex flex-column">
+
+                <h3 class="card-title">
+                  Wireless Headphones
+                </h3>
+
+
+                <p class="card-text">
+                  Enjoy quality sound, wireless freedom
+                  and comfortable listening all day.
+                </p>
+
+
+                <p class="product-price">
+                  KSh 7,200
+                </p>
+
+
+                <a
+                  href="#contact"
+                  class="btn btn-dark mt-auto"
+                >
+                  Shop Now
+                </a>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ABOUT SECTION
+    ====================================================== -->
+
+    <section
+      id="about"
+      class="about-section"
+    >
+
+      <div class="container">
+
+        <div class="row align-items-center g-5">
+
+
+          <div class="col-12 col-md-5">
+
+            <span class="section-label">
+              ABOUT US
+            </span>
+
+            <h2>
+              Shopping made simple.
+            </h2>
+
+          </div>
+
+
+          <div class="col-12 col-md-7">
+
+            <p class="lead">
+              Cyrus Store brings together style,
+              quality and convenience.
+            </p>
+
+
+            <p>
+              This responsive online store was created
+              using HTML, CSS and Bootstrap.
+            </p>
+
+
+            <p>
+              The design automatically adjusts to
+              desktop, tablet and mobile screen sizes,
+              providing a smooth shopping experience.
+            </p>
+
+
+            <a
+              href="#products"
+              class="btn btn-warning"
+            >
+              View Products
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACT SECTION
+    ====================================================== -->
+
+    <section
+      id="contact"
+      class="contact-section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-heading text-center">
+
+          <h2>
+            Contact Us
+          </h2>
+
+          <p>
+            Have a question about one of our products?
+            Send us a message.
+          </p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+          <div class="col-12 col-md-8 col-lg-6">
+
+
+            <form class="contact-form">
+
+
+              <!-- NAME -->
+
+              <div class="mb-3">
+
+                <label
+                  for="name"
+                  class="form-label"
+                >
+                  Name
+                </label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                >
+
+              </div>
+
+
+              <!-- EMAIL -->
+
+              <div class="mb-3">
+
+                <label
+                  for="email"
+                  class="form-label"
+                >
+                  Email
+                </label>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                >
+
+              </div>
+
+
+              <!-- MESSAGE -->
+
+              <div class="mb-4">
+
+                <label
+                  for="message"
+                  class="form-label"
+                >
+                  Message
+                </label>
+
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message"
+                  required
+                ></textarea>
+
+              </div>
+
+
+              <!-- SUBMIT -->
+
+              <button
+                type="submit"
+                class="btn btn-warning w-100"
+              >
+                Send Message
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div
+        class="d-flex flex-column flex-md-row
+        justify-content-between align-items-center gap-3"
+      >
+
+
+        <p class="mb-0">
+          &copy; 2026 Cyrus Store.
+          All Rights Reserved.
+        </p>
+
+
+        <div class="social-links">
+
+          <a
+            href="#"
+            aria-label="Facebook"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+
+
+          <a
+            href="#"
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+
+
+          <a
+            href="#"
+            aria-label="Twitter"
+          >
+            <i class="bi bi-twitter-x"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =====================================================
+       BOOTSTRAP JAVASCRIPT
+  ====================================================== -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+</body>
+
+</html>
